@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Title</title>
+</head>
+<body>
+<script>
+    let d = new Date()
+    let h = Number(prompt("Hours"))
+    let m = Number(prompt("Minutes"))
+    let s = Number(prompt("Seconds"))
+    if(h>=24){
+      h = 24-h
+    }
+    if(m>=60){
+      m = 60 - m
+    }
+    if(s>=60){
+      s = 60 - s
+    }
+    alert(`${24-h}:${60-m}:${60-s}`)
+</script>
+</body>
+</html>
