@@ -52,6 +52,10 @@ function visibleSort(arr, price = 100000, isPrice = false, color = "FFFFFF", isC
     //якщо isПараметр == true, то тоді фільтр спрацьовує, якщо false то не спрацьовує
     if (isPrice) {
         for (let i = 0; i < arr.length; i++) {
+            //0
+            //1
+            //2
+            //3
             if (array[i].price > price) {
                 // додаємо індекси непотрібних елементів в масив
                 arrRes.push(i)
